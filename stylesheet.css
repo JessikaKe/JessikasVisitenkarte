@@ -1,0 +1,210 @@
+html {
+    background: #ffffff;
+
+}
+
+body {
+    background: #ffffff;
+    font-family: Ink free, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+
+.Raster{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto auto;     
+}
+
+
+.Titel {
+    grid-column: 1/4;
+    grid-row: 1;
+    
+    font-style:normal;
+    font-family: MV Boli, sans-serif;
+    color: white;
+    background-color:#43b153;
+    text-shadow:5px 7px 5px black;
+    text-align: center;
+    font-size:50px;
+    
+    
+ 
+}
+
+.ZelleKontaktdaten{
+    grid-column: 1;
+    grid-row: 2;
+    
+    text-align: center;
+    text-emphasis-style: circle;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    
+    border-right: #43b153 thick solid ;
+
+}
+
+
+
+.ZelleProfilbild{
+    grid-column: 2;
+    grid-row: 2;
+    
+    
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+}
+
+.Profilbild{
+    width: 50%;
+    
+    
+}
+
+
+.MeineKurse{
+    font-size:30px;
+}
+
+.ZelleMeineKurse{
+    grid-column: 1;
+    grid-row: 3;
+    
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}
+
+.MeinHobby{
+    font-size: 30px;
+}
+.ZelleMeinHobby {
+    grid-column: 2;
+    grid-row: 3; 
+    
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    
+    
+}
+
+.Tanzfoto{
+    width:70%;
+
+}
+
+
+
+.ZelleFußzeile1 {
+    grid-column: 1;
+    grid-row: 4;
+    
+    font-style: italic;
+    font-family: Mv Boli;
+    color: black;
+    background-color:#43b153;
+    text-shadow:1px 3px 3px white;
+    text-align: left;
+    font-size:18px;
+}
+
+.ZelleFußzeile2 {
+    grid-column: 2;
+    grid-row: 4;
+    
+    font-style: italic;
+    font-family: Mv Boli;
+    color:black;
+    background-color:#43b153;
+    text-shadow:1px 3px 3px white;
+    text-align: center;
+    font-size:18px;
+}
+
+.ZelleFußzeile3 {
+    grid-column: 3;
+    grid-row: 4;
+    
+    font-style: italic;
+    font-family: Mv Boli;
+    color: black;
+    background-color:#43b153;
+    text-shadow:1px 3px 3px white;
+    text-align: right;
+    font-size:18px;
+}
+
+
+
+ol{list-style-type:upper-roman;
+}
+
+ul {list-style-type: square;
+    margin-bottom: 1em;
+
+}
+
+
+img {
+    
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #70bed6;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #43b153;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #43b153;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a {
+    color:#43b153;
+    box-shadow:inset 0 -3px 0 -1px #70bed6;
+    padding: .25em 0;
+    text-decoration: none;
+    transition: all .5s;
+    
+}
+a {
+    color:#43b153;
+    box-shadow:inset 0 -3px 0 -1px #70bed6;
+    padding: .25em 0;
+    text-decoration: none;
+    transition: all .5s;
+    
+}
+
+a:hover,
+a:focus {
+    box-shadow:inset 0 -30px 0 #90c998;
+    
+
+    
